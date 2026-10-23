@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>AHMED — Backend Developer | Node.js, TypeScript, WhatsApp Bots</title>
+<meta name="description" content="AHMED (THE-AHMEXD) is a backend developer from Pakistan building scalable APIs, WhatsApp MD bots and automation tools with Node.js, TypeScript and PostgreSQL. Creator of AHMED X (ahmedxmd.com)."/>
+<meta name="keywords" content="AHMED, THE-AHMEXD, backend developer, Node.js developer, TypeScript, WhatsApp bot developer, AHMED X, ahmedxmd, REST API developer, Pakistan developer"/>
+<meta name="author" content="AHMED"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://the-ahmexd.github.io/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="AHMED — Backend Developer"/>
+<meta property="og:description" content="Backend developer building scalable APIs, WhatsApp MD bots and automation tools. Creator of AHMED X."/>
+<meta property="og:url" content="https://the-ahmexd.github.io/"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AHMED — Backend Developer"/>
+<meta name="twitter:description" content="Node.js · TypeScript · PostgreSQL — WhatsApp Bots, REST APIs & Automation. Creator of AHMED X."/>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"AHMED","alternateName":"THE-AHMEXD","url":"https://the-ahmexd.github.io/","jobTitle":"Backend Developer","address":{"@type":"PostalAddress","addressCountry":"PK"},"sameAs":["https://github.com/THE-AHMEXD","https://ahmedxmd.com"],"knowsAbout":["Node.js","TypeScript","PostgreSQL","Redis","Docker","REST APIs","WhatsApp Bots","Backend Development"]}
+</script>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --panel2:#1c2330; --border:#30363d;
+    --text:#e6edf3; --muted:#9e9e9e; --accent:#ffffff; --accent2:#58a6ff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;line-height:1.65}
+  a{color:var(--accent2);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1020px;margin:0 auto;padding:0 22px}
+  header{position:sticky;top:0;background:rgba(13,17,23,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);z-index:10}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+  .logo{font-weight:800;letter-spacing:3px;font-size:19px;color:var(--text)}
+  .logo span{color:var(--muted)}
+  .nav nav a{color:var(--muted);margin-left:26px;font-size:15px}
+  .nav nav a:hover{color:var(--text);text-decoration:none}
+  .hero{padding:96px 0 72px;text-align:center}
+  .hero .hi{color:var(--muted);letter-spacing:4px;font-size:13px;text-transform:uppercase}
+  .hero h1{font-size:64px;font-weight:900;letter-spacing:2px;margin:14px 0 6px}
+  .hero h2{font-size:23px;font-weight:600;color:var(--muted)}
+  .hero h2 b{color:var(--text);font-weight:700}
+  .hero .tag{margin-top:18px;font-style:italic;color:var(--muted)}
+  .cta{margin-top:34px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-block;padding:12px 26px;border-radius:8px;border:1px solid var(--border);color:var(--text);font-weight:600;font-size:15px;background:var(--panel)}
+  .btn:hover{text-decoration:none;border-color:var(--muted)}
+  .btn.primary{background:var(--accent);color:#0d1117;border-color:var(--accent)}
+  section{padding:56px 0;border-top:1px solid var(--border)}
+  h3.sec{font-size:27px;font-weight:800;margin-bottom:8px}
+  p.lead{color:var(--muted);max-width:720px}
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:26px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:26px}
+  .card h4{font-size:20px;margin-bottom:8px}
+  .card h4 a{color:var(--text)}
+  .card p{color:var(--muted);font-size:15px}
+  .card .visit{margin-top:14px;display:inline-block;font-size:14px;font-weight:700}
+  .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px}
+  .mini{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:20px}
+  .mini h5{font-size:16px;margin-bottom:6px}
+  .mini p{color:var(--muted);font-size:14px}
+  .badges{margin-top:22px;display:flex;flex-wrap:wrap;gap:9px}
+  .badges img{height:27px;border-radius:5px}
+  .stackicons{margin-top:22px}
+  .stackicons img{max-width:100%}
+  .connect{display:flex;gap:14px;flex-wrap:wrap;margin-top:24px}
+  footer{border-top:1px solid var(--border);padding:30px 0 42px;text-align:center;color:var(--muted);font-size:14px}
+  @media (max-width:820px){
+    .cards{grid-template-columns:1fr}
+    .grid4{grid-template-columns:1fr 1fr}
+    .hero{padding:64px 0 52px}
+    .hero h1{font-size:44px}
+    .hero h2{font-size:19px}
+    .nav nav a{margin-left:16px;font-size:14px}
+  }
+  @media (max-width:480px){
+    .grid4{grid-template-columns:1fr}
+    .hero h1{font-size:36px;letter-spacing:1px}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="logo">AHMED <span>/ THE-AHMEXD</span></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#connect">Connect</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="hero">
+    <div class="hi">Hi, I'm</div>
+    <h1>AHMED</h1>
+    <h2>Backend Developer — <b>Node.js</b> · <b>TypeScript</b> · <b>PostgreSQL</b></h2>
+    <p class="tag">"Just code. No noise."</p>
+    <p class="lead" style="margin:20px auto 0">I build reliable backend systems, REST APIs and WhatsApp bots with clean architecture and scalable solutions — and I created <a href="https://ahmedxmd.com">AHMED X</a>, a platform for deploying WhatsApp MD bots.</p>
+    <div class="cta">
+      <a class="btn primary" href="#projects">View Projects</a>
+      <a class="btn" href="https://github.com/THE-AHMEXD" target="_blank" rel="noopener">GitHub Profile</a>
+    </div>
+  </div>
+
+  <section id="about">
+    <h3 class="sec">🚀 About Me</h3>
+    <p class="lead">Backend engineer from Pakistan, obsessed with clean code and building meaningful things. I enjoy building scalable, production-ready APIs and systems, and continuously improving my understanding of real-world backend engineering — currently working with Node.js, TypeScript, PostgreSQL, Redis and Docker, while sharpening problem-solving skills through system design. My goal is simple: write clean code, build reliable software, and create systems that last.</p>
+  </section>
+
+  <section id="projects">
+    <h3 class="sec">🌟 Featured Projects</h3>
+    <p class="lead">Things I designed, built and run in production.</p>
+    <div class="cards">
+      <div class="card">
+        <h4><a href="https://ahmedxmd.com" target="_blank" rel="noopener">AHMED X</a></h4>
+        <p>WhatsApp MD bot deployment platform. Deploy, manage and run multi-device WhatsApp bots from one clean dashboard — catalog, sessions, commands and deploys in a single place.</p>
+        <a class="visit" href="https://ahmedxmd.com" target="_blank" rel="noopener">Visit ahmedxmd.com →</a>
+      </div>
+      <div class="card">
+        <h4><a href="https://session.ahmedxmd.com" target="_blank" rel="noopener">Ahmed MD Session</a></h4>
+        <p>Fast and secure session pairing for WhatsApp bots. Generate a session in seconds and plug it straight into your bot deployment.</p>
+        <a class="visit" href="https://session.ahmedxmd.com" target="_blank" rel="noopener">Visit session.ahmedxmd.com →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h3 class="sec">🛠️ What I Build</h3>
+    <div class="grid4">
+      <div class="mini"><h5>WhatsApp Bots</h5><p>Multi-device (MD) bots, plugins and automation tools.</p></div>
+      <div class="mini"><h5>REST APIs</h5><p>Fast, secure and production-ready backend APIs.</p></div>
+      <div class="mini"><h5>Backend Systems</h5><p>Scalable services with clean architecture.</p></div>
+      <div class="mini"><h5>Automation Tools</h5><p>Downloaders, utilities and workflow automation.</p></div>
+    </div>
+
+    <h3 class="sec" style="margin-top:44px">💻 Tech Stack</h3>
+    <div class="stackicons">
+      <img src="https://skillicons.dev/icons?i=nodejs,ts,py,postgres,redis,docker,express,git,linux,supabase&theme=dark" alt="Node.js, TypeScript, Python, PostgreSQL, Redis, Docker, Express, Git, Linux, Supabase"/>
+    </div>
+
+    <h3 class="sec" style="margin-top:44px">🤖 AI in My Workflow</h3>
+    <div class="badges">
+      <img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT"/>
+      <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude"/>
+      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"/>
+      <img src="https://img.shields.io/badge/Meta%20AI-0082FB?style=for-the-badge&logo=meta&logoColor=white" alt="Meta AI"/>
+      <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"/>
+      <img src="https://img.shields.io/badge/Perplexity-20808D?style=for-the-badge&logo=perplexity&logoColor=white" alt="Perplexity"/>
+      <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white" alt="DeepSeek"/>
+    </div>
+
+    <h3 class="sec" style="margin-top:44px">☁️ Deployment &amp; Hosting</h3>
+    <div class="badges">
+      <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Render"/>
+      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+      <img src="https://img.shields.io/badge/Hostinger-673DE6?style=for-the-badge&logo=hostinger&logoColor=white" alt="Hostinger"/>
+      <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"/>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS"/>
+      <img src="https://img.shields.io/badge/cPanel-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white" alt="cPanel"/>
+    </div>
+  </section>
+
+  <section id="connect">
+    <h3 class="sec">🤝 Connect</h3>
+    <p class="lead">Questions, ideas or a project in mind — reach me here:</p>
+    <div class="connect">
+      <a class="btn" href="https://github.com/THE-AHMEXD" target="_blank" rel="noopener">GitHub — @THE-AHMEXD</a>
+      <a class="btn" href="https://whatsapp.com/channel/0029Vb5fvfG5vKA37OLVvI2V" target="_blank" rel="noopener">AHMED X WhatsApp Channel</a>
+      <a class="btn" href="mailto:info@ahmedxmd.com">Email — info@ahmedxmd.com</a>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap">© 2026 AHMED · Backend Developer · Pakistan — Built on GitHub Pages</div>
+</footer>
+</body>
+</html>
